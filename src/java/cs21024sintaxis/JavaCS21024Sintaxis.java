@@ -5,7 +5,7 @@ package java.cs21024sintaxis;
 
 public class JavaCS21024Sintaxis {
     public static void main(String[] args) {
-        // TODO code application logic here
+        //Mejora
     }
     
 }
