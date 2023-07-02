@@ -1,4 +1,4 @@
-package java.cs21024sintaxis;
+package cs21024sintaxis;
 
 // @author Iván Alexander Carranza Sánchez
 
