@@ -7,8 +7,8 @@ public class JavaCS21024Sintaxis {
     public static void main(String[] args) {
         /*
              ||===============================================||
-             ||    DECLARACIÓN Y INICIALIZACIÓN DE VARIABLES  ||
-             ||          (TIPOS DE VARIABLES Y CONVERSIÓN)    ||
+             ||    DECLARACIÓN Y INICIALIZACIÓN DE VARIABLES      ||
+             ||          (TIPOS DE VARIABLES Y CONVERSIÓN)                 ||
              ||===============================================||
         */
         
@@ -47,6 +47,22 @@ public class JavaCS21024Sintaxis {
                 caracter = (char)numeroCorto;  // 2 Byte a 2 Byte
                 System.out.println("El resultado final de conversiones con casting en DOUBLE es: "+ real);
                 System.out.println("El resultado final de conversiones con casting en CHAR es: "+ caracter);
+       
+        //---------CARACTERES ESPECIALES (SECUENCIA DE ESCAPE)---------
+                //Escape BACKSPACE
+                 System.out.println("ESTO ES RETROCESO\b");
+                //Escape TABULADOR
+                System.out.println("ESTO ES \t TABULADOR");
+                //Escape NUEVA LINEA
+                System.out.println("ESTO ES NUEVA LINEA\n");
+                //Escape SALTO DE PAGINA
+                System.out.println("ESTO ES SALTO\f DE PAGINA");
+                //Escape RETORNO DE CARRO: mueve el cursor al comienzo de la línea sin avanzar a la siguiente linea.
+                System.out.println("ESTO ES \rRETORNO DE CARRO");
+                //Escape DOBLE COMILLA
+                System.out.println("ESTO ES DOBLE COMILLA\"");
+                //Escape COMILLA SIMPLE
+                System.out.println("ESTO ES COMILLA SIMPLE\'");
     }
     
 }
