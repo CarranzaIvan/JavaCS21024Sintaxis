@@ -3,6 +3,7 @@ package cs21024sintaxis;
 // @author Iván Alexander Carranza Sánchez
 
 public class JavaCS21024Sintaxis {
+        final int MAXIMO = 15; //Declaración de una variable constante
     public static void main(String[] args) {
         /*
              ||===============================================||
@@ -28,17 +29,24 @@ public class JavaCS21024Sintaxis {
 
             // Logico
                boolean logico = false; // 1 Byte (true or false)
-            
+               System.out.println("LOS BOOLEAN NO SE PUEDE CONVERTIR A NINGUN OTRO TIPO DE DATO "+logico);
+               
         //---------CONVERSIÓN DE UN VALOR A OTRO---------
             //Conversión de menor a mayor byte (Directa)
-                real = entero; // 4 a 8 Byte (Entero a Decimal)
                 real = flotante + real; // 8 Byte = 4 y 8 Byte (Suma Decimal)
+                real = real + largo;     // 8 Byte = 8 y 4 Byte (Suma Enteros y Decimal)
+                real = entero;             // 4 a 8 Byte (Entero a Decimal)
                 largo = largo + bit + numeroCorto; // 8 Byte = 8, 1 y 2 Byte (Suma Enteros)
-                real = real + largo; // 8 Byte = 8 y 4 Byte (Suma Enteros y Decimal)
-                System.out.println("El resultado final de conversiones directas es: "+ real);
-            
-            //Conversión de mayor a menor byte (Cast)
+                System.out.println("El resultado final de conversiones directas en DOUBLE es: "+ real);
+                System.out.println("El resultado final de conversiones directas en LONG es: "+ largo);
                 
+            //Conversión de mayor a menor byte (Cast)
+                real = (double)caracter; //Se convierte el caracter en equivalencia codigo ASCII
+                flotante = (float)real;     // 8 Byte a 4 Byte
+                numeroCorto= (short)flotante;    // 4 Byte a 2 Byte
+                caracter = (char)numeroCorto;  // 2 Byte a 2 Byte
+                System.out.println("El resultado final de conversiones con casting en DOUBLE es: "+ real);
+                System.out.println("El resultado final de conversiones con casting en CHAR es: "+ caracter);
     }
     
 }
