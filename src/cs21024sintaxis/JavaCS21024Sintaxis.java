@@ -63,7 +63,6 @@ public class JavaCS21024Sintaxis {
                 System.out.println("ESTO ES DOBLE COMILLA\"");
                 //Escape COMILLA SIMPLE
                 System.out.println("ESTO ES COMILLA SIMPLE\'");
-                //INTENTO DESPUES DE UNA ACTUALIZACIÓN DE DATOS
     }
     
 }
