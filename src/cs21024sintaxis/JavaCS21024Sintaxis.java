@@ -7,8 +7,8 @@ public class JavaCS21024Sintaxis {
     public static void main(String[] args) {
         /*
              ||===============================================||
-             ||    DECLARACIÓN Y INICIALIZACIÓN DE VARIABLES      ||
-             ||          (TIPOS DE VARIABLES Y CONVERSIÓN)                 ||
+             ||    DECLARACIÓN Y INICIALIZACIÓN DE VARIABLES  ||
+             ||          (TIPOS DE VARIABLES Y CONVERSIÓN)    ||
              ||===============================================||
         */
         
